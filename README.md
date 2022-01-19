@@ -1,1 +1,1 @@
-# hassless-ts
+Hassless template for generating typescript development API

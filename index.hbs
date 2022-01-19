@@ -1,0 +1,9 @@
+export const enum ERROR {
+  {{#each this}}{{@key}} = 0x{{code}}, {{/each}}
+}
+
+{{#each this}}
+export namespace {{@key}} { 
+  export const code = 0x{{code}}
+}
+{{/each}}
