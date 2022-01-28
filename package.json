@@ -1,6 +1,6 @@
 {
   "name": "@hassless/ts",
-  "version": "semantic",
+  "version": "0.0.0",
   "private": true,
   "description": "Hassless template for generating typescript development API",
   "main": "index.js",
