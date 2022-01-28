@@ -17,5 +17,10 @@
   },
   "scripts": {
     "start": "node index.js"
+  },
+  "release": {
+    "branches": [
+      "main"
+    ]
   }
 }
