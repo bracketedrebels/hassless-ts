@@ -13,10 +13,13 @@ jobs:
       packages: write
     steps:
       - uses: actions/checkout@v2
+      - uses: ferluisxd/create-npmrc@3
+        with:
+          org_name: ${{ GITHUB_REPOSITORY_OWNER }}
+        env:
+          AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - uses: actions/setup-node@v2
         with:
           node-version: "16.x"
           registry-url: "https://npm.pkg.github.com"
       - run: npm publish
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
