@@ -1,6 +1,7 @@
 {
   "name": "@hassless/ts",
-  "version": "1.0.0",
+  "version": "semantic",
+  "private": true,
   "description": "Hassless template for generating typescript development API",
   "main": "index.js",
   "author": "Dan Mironenko <wolfson@bracketedrebels.com>",
